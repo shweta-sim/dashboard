@@ -6,7 +6,7 @@ const componentClicked = () => {
   console.log('Clicked!');
 };
 
-const LoginButton = ({ facebookResponse }) => (
+export const LoginButton = ({ facebookResponse }) => (
   <FacebookLoginWithButton
     appId="2557733637636647"
     // autoLoad
@@ -17,7 +17,7 @@ const LoginButton = ({ facebookResponse }) => (
   />
 );
 
-const UserScreen = ({ user }) => (
+export const UserScreen = ({ user }) => (
   <>
     <h1>Welcome {user.name}!</h1>
     <p>{user.email}</p>

@@ -7,11 +7,11 @@ const NewsItem = ({ news }) => {
         <h1>News List</h1>
       </center>
       {news.map(n => (
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">{n.title}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">{n.publishedAt}</h6>
-            <p class="card-text">{n.url}</p>
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">{n.title}</h5>
+            <h6 className="card-subtitle mb-2 text-muted">{n.publishedAt}</h6>
+            <p className="card-text">{n.url}</p>
           </div>
         </div>
       ))}
