@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NewsItem from './NewsItem';
 import { articles_url, _api_key } from './NewsConfig';
-let userTopic = 'world';
+let userTopic = 'world'; //change this
 
 class News extends Component {
   render() {
